@@ -1,11 +1,11 @@
-          MODULE=Python-3
-         VERSION=6.4
-          SOURCE=$MODULE.$VERSION.tgz
-      SOURCE_URL=https://www.python.org/ftp/python/3.$VERSION/
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE.$VERSION
-      SOURCE_VFY=sha256:7dc453e1a93c083388eb1a23a256862407f8234a96dc4fae0fc7682020227486
-        WEB_SITE=http://www.python.org
-         ENTERED=20121013
+          MODULE=python2
+         VERSION=2.7.14
+          SOURCE=Python-$VERSION.tar.xz
+      SOURCE_URL=http://www.python.org/ftp/python/$VERSION
+      SOURCE_VFY=sha256:71ffb26e09e78650e424929b2b457b9c912ac216576e6bd9e7d204ed03296a66
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Python-$VERSION
+        WEB_SITE=http://www.python.org/
+         ENTERED=20010922
          UPDATED=20171222
            SHORT="Interpreted, interactive, object-oriented programming language"
 
