@@ -1,4 +1,4 @@
 depends cmake
 depends unzip
 
-optional_depends Python "" " " "for pyassimp"
+optional_depends python2 "" " " "for pyassimp"

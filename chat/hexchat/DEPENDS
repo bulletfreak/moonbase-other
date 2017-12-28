@@ -11,12 +11,12 @@ optional_depends %OSSL \
                  "--disable-openssl" \
                  "enable support for openSSL"
 
-optional_depends Python \
+optional_depends python2 \
                  "--enable-python=python2" \
                  "--disable-python" \
                  "enable support for Python 2.x plugins"
 
-optional_depends Python-3 \
+optional_depends python \
                  "--enable-python=python3" \
                  "--disable-python" \
                  "enable support for Python 3.x plugins"

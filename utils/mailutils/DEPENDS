@@ -1,4 +1,4 @@
 depends guile
 depends ncurses
 
-optional_depends Python "--with-python" "--without-python" "for python interface"
+optional_depends python2 "--with-python" "--without-python" "for python interface"

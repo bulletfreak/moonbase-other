@@ -1,4 +1,4 @@
-depends  Python
+depends python2
 depends  ocaml
 depends  qt4
 depends  kdelibs

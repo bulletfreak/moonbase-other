@@ -1,4 +1,4 @@
-depends Python
+depends python2
 
 optional_depends xz      "--with-liblzma" "--without-liblzma" "for xz support"
 optional_depends expat   "--with-expat"   "--without-expat"   "for XML support"
@@ -51,7 +51,7 @@ optional_depends spatialindex \
                  "for indexing support"
 
 # Broke, not fix atm
-#optional_depends Python-3 \
+#optional_depends python \
 #                 "--with-python=/usr/bin/python3" \
 #                 "--without-python" \
 #                 "for python3 scripting support"
